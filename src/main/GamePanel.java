@@ -1,3 +1,10 @@
+/* Author Name: Laxmi Chari
+Roll No: 22
+Title: Program to implement Board Game called Chess using Java
+Start Date: 24/08/2024
+Modified Date: 17/09/2024
+Description: Handles the main Functioning of the game, most of the main controls are written here.
+ */
 package main;
 
 import java.awt.AlphaComposite;
@@ -497,7 +504,7 @@ public class GamePanel extends JPanel implements Runnable{
 	}
 	
 	private boolean canPromote() {
-		
+		//promotion of the pawn
 		if(activeP.type == Type.PAWN) {
 			if(currentColor == WHITE && activeP.row == 0 || currentColor == BLACK && activeP.row == 7) {
 				promoPieces.clear();
