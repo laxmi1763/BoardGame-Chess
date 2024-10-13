@@ -1,3 +1,10 @@
+/* Author Name: Laxmi Chari
+Roll No: 22
+Title: Program to implement Board Game called Chess using Java
+Start Date: 24/08/2024
+Modified Date: 17/09/2024
+Description: Main Class where drawing of the window is written and where objects are called so the game starts.
+ */
 package main;
 
 import javax.swing.JFrame;
